@@ -1,0 +1,43 @@
+@import url(https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css);
+*{margin: 0; padding: 0; box-sizing: border-box;}
+li {list-style: none;}
+body {font-family:'NanumSquare', sans-serif; text-align: center; background-color: #fffcf5;}
+.normal {font-weight: 400 }
+.bold {font-weight: 700 }
+.bolder {font-weight: 800 }
+.light {font-weight: 300 }
+
+#gname {background: #fc5d9d;
+    background: -webkit-linear-gradient(left, #fc5d9d, #f8c596);
+    background:    -moz-linear-gradient(right, #fc5d9d, #f8c596);
+    background:      -o-linear-gradient(right, #fc5d9d, #f8c596);
+    background:         linear-gradient(to right, #fc5d9d, #f8c596);
+    -webkit-background-clip: text;
+            background-clip: text;
+    color: transparent;
+    font-size: 50pt;
+    font-weight: bold;
+    letter-spacing: 15px;
+    margin-top: 150px;
+}
+.mem {background: #fc5d9d;
+    background: -webkit-linear-gradient(left, #fc5d9d, #f8c596);
+    background:    -moz-linear-gradient(right, #fc5d9d, #f8c596);
+    background:      -o-linear-gradient(right, #fc5d9d, #f8c596);
+    background:         linear-gradient(to right, #fc5d9d, #f8c596);
+    -webkit-background-clip: text;
+            background-clip: text;
+    color: transparent;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.mem  p {padding-top: 12px;}
+.memberbox {width: 700px; height: 50px; border: 1px solid #ffa7ca; border-radius: 10px; margin: 0 auto;}
+.memberimg {width: 400px; height: 400px; display: none;}
+
+.album h3,ul {margin-top: 50px; letter-spacing: 10px;}
+.album h3 {color: #f8c596;}
+.album ul {color: #fc5d9d; line-height: 50px;}
+rt {color: red;}
